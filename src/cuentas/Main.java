@@ -1,11 +1,28 @@
 package cuentas;
 
+/**
+ * Application for practice of the Development Environment subject.
+ * Grade DAW.
+ *
+ * @author Desarrollo Aplicaciones Web
+ * @version 1.0
+ */
 public class Main {
 
+    /**
+     * Main application entry.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
 
+    /**
+     * Perform different deposit and withdrawal operations on a bank account.
+     *
+     * @param cantidad
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
